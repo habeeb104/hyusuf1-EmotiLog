@@ -1,20 +1,19 @@
 package com.example.hyusuf1_emotilog;
 
-import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 /**
- * Repository interface that defines how log entries are stored and retrieved.
- *
- * Design rationale:
- * Separates app logic from the storage mechanism.
- * Allows future replacement with a database without changing logic.
+ * Purpose: Defines the contract for data storage and retrieval.
+ * Design Rationale: Uses an interface to abstract the data access layer.
+ * This ensures the application remains independent of the specific storage
+ * implementation.
  */
-
-public interface LogRepository {
+interface LogRepository {
     void addLog(LogEntry entry);
 
-    List<LogEntry> getLogsByDate(LocalDate date);
+    List<LogEntry> getLogsByDate(Date date);
 
-    List<LogEntry> getLogsInPeriod(LocalDate start, LocalDate end);
+    List<LogEntry> getLogsInPeriod(Date start, Date end);
+
 }

@@ -1,27 +1,32 @@
 package com.example.hyusuf1_emotilog;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
- * Represents a log entry created when user selects an emotion.
- *
- * Each LogEntry associates one Emotion with a timestamp.
+ * Purpose: Records a specific instance of a user logging their feelings.
+ * Design Rationale: Associates a specific Emotion object with a timestamp
+ * and a unique ID.
  */
-
 public class LogEntry {
-    private Emotion emotion;
-    private long timestamp;
+    private long entryId;
+    private Date timestamp;
+    private Emotion emotion; // Associated with exactly one Emotion
 
-    public LogEntry(Emotion emotion) {
+    public LogEntry(long entryId, Date timestamp, Emotion emotion) {
+        this.entryId = entryId;
+        this.timestamp = timestamp;
         this.emotion = emotion;
-        this.timestamp = System.currentTimeMillis();
+    }
+
+    public Date getTimestamp() {
+        return timestamp;
     }
 
     public Emotion getEmotion() {
         return emotion;
     }
 
-    public long getTimestamp() {
-        return timestamp;
+    public long getEntryId() {
+        return entryId;
     }
 }

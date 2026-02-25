@@ -1,35 +1,24 @@
 package com.example.hyusuf1_emotilog;
 
 /**
- * Represents predefined emotion that can be logged by user.
- * This class is a simple data holder, does not contain behavior.
- *
- * Design rationale:
- * Emotions differ only by name and icon, not behavior, so inheritance
- * was avoided for a single reusable class.
+ * Purpose: Represents a predefined feeling
+ * Design Rationale: Acts as a reusable value object that stores metadata
+ * (name and icon ID) for each emotion. This allows the UI to remain
+ * consistent while providing a data structure for logs.
  */
 
 public class Emotion {
     private int id;
-    private String name;
-    private int iconResId;
+    private String name; // e.g., Happy, Sad, Angry
+    private int iconId;  // Reference to Android drawable resource
 
-    public Emotion(int id, String name, int iconResId) {
+    public Emotion(int id, String name, int iconId) {
         this.id = id;
         this.name = name;
-        this.iconResId = iconResId;
+        this.iconId = iconId;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getIconResId() {
-        return iconResId;
-    }
+    public String getName() { return name; }
+    public int getIcon() { return iconId; }
 }
-}
+
