@@ -1,0 +1,6 @@
+com.example.hyusuf1_emotilog.test.app-tracing-1.2.0-0 C:\Users\habee\.gradle\caches\9.1.0\transforms\1c30ac1f99c2f16e61d7acf2571c207f\workspace\transformed\tracing-1.2.0\res
+com.example.hyusuf1_emotilog.test.app-core-1.7.0-1 C:\Users\habee\.gradle\caches\9.1.0\transforms\db20c77cad9c47a8977f17966a85f3ab\workspace\transformed\core-1.7.0\res
+com.example.hyusuf1_emotilog.test.app-updated_navigation_xml-2 C:\Users\habee\Documents\hyusuf1-EmotiLog\code\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.hyusuf1_emotilog.test.app-packageDebugAndroidTestResources-3 C:\Users\habee\Documents\hyusuf1-EmotiLog\code\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
+com.example.hyusuf1_emotilog.test.app-packageDebugAndroidTestResources-4 C:\Users\habee\Documents\hyusuf1-EmotiLog\code\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
+com.example.hyusuf1_emotilog.test.app-debugAndroidTest-5 C:\Users\habee\Documents\hyusuf1-EmotiLog\code\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

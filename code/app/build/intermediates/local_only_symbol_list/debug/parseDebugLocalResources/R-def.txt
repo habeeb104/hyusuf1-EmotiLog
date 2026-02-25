@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_angry
+drawable ic_excited
+drawable ic_happy
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_sad
+drawable ic_scared
+drawable ic_surprised
+id btn_angry
+id btn_excited
+id btn_happy
+id btn_sad
+id btn_scared
+id btn_surprised
+id btn_view_list
+id btn_view_summary
+id main
+id tv_log_display
+id tv_summary_display
+layout activity_log_list
+layout activity_main
+layout activity_summary
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Hyusuf1EmotiLog
+style Theme.Hyusuf1EmotiLog
+xml backup_rules
+xml data_extraction_rules
